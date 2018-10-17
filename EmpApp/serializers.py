@@ -4,3 +4,4 @@ class EmpSerializer(serializers.ModelSerializer):
     class Meta:
         model=Emp
         fields=('empid','empname','salary')
+print("done the job")
